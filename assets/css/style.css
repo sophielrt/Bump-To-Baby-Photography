@@ -1,11 +1,14 @@
-body {
-    background-color: aquamarine;
-}
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Old+Standard+TT&display=swap');
 
 h1 {
-    color: brown;
+    font-family: "Old Standard TT", Garamond, serif;
 }
 
-p {
-    font-weight: bold;
+p { 
+    font-family: "Montserrat", Tahoma, sans-serif;
+}
+
+h2 {
+    background-color: aqua;
 }
