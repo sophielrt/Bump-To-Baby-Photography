@@ -11,3 +11,14 @@
 
 /* Global Styles */
 
+
+/* grid visulisation CSS */
+.cotainer,
+.row {
+    border: 4px solid black;
+}
+
+.col-12 {
+    border: 4px solid white;
+    background-color: gray;
+}

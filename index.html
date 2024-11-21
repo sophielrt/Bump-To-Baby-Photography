@@ -21,41 +21,83 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page, this code has been used from the code institute LMS -->
+<body class="d-flex flex-column min-vh-100">
     <!-- Navbar -->
     
 
     <!-- Carousel -->
-    <header>
+    <header class="container">
+        <div class="row">
+            <div class="col-12">Carousel</div>
+        </div>
     </header>
 
     <!-- Main element contains key sections of the home page -->
     <main>
         <!-- About me -->
-        <section id="about-me">
-
+        <section class="container" id="about-me">
+            <div class="row">
+                <div class="col-12">About me heading</div>
+                <div class="col-12 col-xl-6">Picture</div>
+                <div class="col-12 col-xl-6">Text</div>
+            </div>
         </section>
         
         <!-- Services section -->
-        <section id="services">
-
+        <section class="container" id="services">
+            <div class="row">
+                <div class="col-12">Services heading</div>
+                <div class="col-12 col-md-6 col-xl-3">Bump</div>
+                <div class="col-12 col-md-6 col-xl-3">Newborn</div>
+                <div class="col-12 col-md-6 col-xl-3">Baby</div>
+                <div class="col-12 col-md-6 col-xl-3">Family</div>
+            </div>
         </section>
 
 
         <!-- Testiomals -->
-        <section id="testiomals">
+        <section class="container" id="testiomals">
+            <div class="row">
+                <div class="col-12">Testiomals heading</div>
+                <div class="col-12 col-md-6 col-xl-3">Testiomal one</div>
+                <div class="col-12 col-md-6 col-xl-3">Testiomal two</div>
+                <div class="col-12 col-md-6 col-xl-3">Testiomal three</div>
+                <div class="col-12 col-md-6 col-xl-3">Testiomal four</div>
+            </div>
 
         </section>
 
         <!-- Enquiry Form -->
-        <section id="enquiry-form">
+        <section class="container" id="enquiry-form">
+            <div class="row">
+                <div class="col-12">Enquiry form heading</div>
+                <div class="col-12 col-md-6 col-xl-4">Full name</div>
+                <div class="col-12 col-md-6 col-xl-4">Phone number</div>
+                <div class="col-12 col-md-6 col-xl-4">Email address</div>
+                <div class="col-12">Message</div>
+            </div>
 
         </section>
     </main>
 
-    <!-- Footer, contact section and studio map -->
-    <footer>
-
+    <!-- Footer, contact section, studio opening times and map -->
+    <!-- mt-auto is added to push footer to bottom of page, this code has been used from the code institute LMS -->
+    <footer class="mt-auto">
+        <div class="container" id="contact-us">
+            <div class="row">
+                <div class="col-12">Contact us heading</div>
+                <!-- Contact info -->
+                <div class="col-12 col-xl-6">Contact info</div>
+                <!-- Studio opening times -->
+                <div class="col-12 col-xl-6">Studio opening times</div>
+            </div>
+            <div class="row">
+                <div class="col-12">Where to find us heading</div>
+                <!-- Map -->
+                <div class="col-12">Map</div>
+            </div>
+        </div>
     </footer>
 
     <!-- Bootstrap 5 JS -->
