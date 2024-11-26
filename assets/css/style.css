@@ -5,20 +5,38 @@
 :root {
     --primary-font: "Old Standard TT", Garamond, serif;
     --secondary-font: "Montserrat", Tahoma, sans-serif;
-    --primary-color: #AD8B73;
+    --primary-color: #F8EDE3;
+    --primary-color-font: #AD8B73;
 
 }
 
 /* Global Styles */
 
 
+/* Navbar */
+#navbar {
+    background-color: var(--primary-color);
+}
+
+.nav-link,
+.navbar-brand  {
+    color: var(--primary-color-font);
+}
+
+#navbar .logo {
+    width: 100px;
+}
+
+
+
+
 /* grid visulisation CSS */
-.cotainer,
+ .cotainer,
 .row {
     border: 4px solid black;
 }
 
-.col-12 {
+ .col-12 {
     border: 4px solid white;
-    background-color: gray;
-}
+    
+} 
