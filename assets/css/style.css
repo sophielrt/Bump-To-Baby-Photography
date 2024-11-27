@@ -26,7 +26,10 @@
     width: 100px;
 }
 
-
+/* Carousel */
+#carousel {
+    padding-top: 50px;
+}
 
 
 /* grid visulisation CSS */
