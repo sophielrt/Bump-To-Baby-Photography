@@ -20,6 +20,7 @@
 .nav-link,
 .navbar-brand  {
     color: var(--primary-color-font);
+    font-family: var(--primary-font);
 }
 
 #navbar .logo {
@@ -29,6 +30,12 @@
 /* Carousel */
 #carousel {
     padding-top: 50px;
+}
+
+#carousel-text {
+    font-size: 1.5rem;
+    font-family: var(--primary-font);
+    color: var(--primary-color-font);
 }
 
 
