@@ -43,6 +43,10 @@
     color: var(--primary-color-font);
 }
 
+/* About me */
+#about-me {
+}
+
 /* Services */
 .card-title {
     font-family: var(--primary-font);
