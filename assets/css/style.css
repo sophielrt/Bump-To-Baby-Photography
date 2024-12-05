@@ -24,18 +24,23 @@ body {
     padding-top: 120px; /* This padding pushes the carousel down under the fixed navbar */
 }
 
+h1,
+h2,
+h3 {
+    font-family: var(--primary-font);
+    color: var(--highlight-color);
+}
 
 .section {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-/* Add font styles */
+
 
 
 
 /* Buttons */
-
 .custom-button-filled {
     border: 2px solid var(--secondary-color);
     background-color: var(--secondary-color);
@@ -98,8 +103,6 @@ body {
     border: 2px solid var(--secondary-color);
 }
 
-
-
 /* Carousel */
 #carousel-text {
     font-family: var(--primary-font);
@@ -111,23 +114,45 @@ body {
     background-color: var(--highlight-color);
 }
 
-
-
-
 /* About me */
-
-/* Services */
-.card-title {
-    font-family: var(--primary-font);
+#aboutme-header {
+    padding: 0.5rem 0;
 }
 
-.card-text {
-    font-family: var(--secondary-font);
+#about-me .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#about-me img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* Styling for both Services cards and testiomal cards */
+div.card {
+    border: 0px solid var(--primary-color);
+}
+
+div.card-body {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+/* Services */
+#services {
+    padding: 2rem 0;
+}
+
+h2.display-6 {
+    padding: 1rem 0;
 }
 
 #services .card {
-    margin-bottom: 2rem;
-
+    margin-bottom: 2rem 0;
 }
 
 /* Testimonials */
