@@ -135,6 +135,7 @@ h3 {
 /* Styling for both Services cards and testiomal cards */
 div.card {
     border: 0px solid var(--primary-color);
+    padding-top: 1rem;
 }
 
 div.card-body {
@@ -143,7 +144,7 @@ div.card-body {
 }
 
 /* Services */
-#services {
+ #services {
     padding: 2rem 0;
 }
 
@@ -152,7 +153,7 @@ h2.display-6 {
 }
 
 #services .card {
-    margin-bottom: 2rem 0;
+    margin-bottom: 4rem 0;
 }
 
 /* Testimonials */
@@ -162,7 +163,13 @@ h2.display-6 {
 
 /* Media Queries */
 
-/* Large devices (992px and up)  */
+/* Medium devices (768px and up) */
+@media screen and (min-width: 768px) {
+    #services .card-body {
+        min-height: 286px;
+    }
+}
+/* Large devices (992px and up) */
 @media screen and (min-width: 992px) {
     #services .card-body {
         min-height: 240px;
@@ -176,7 +183,7 @@ h2.display-6 {
     }
 }
 
-/* Extra extr large devices (1400px and up) */
+/* Extra extra large devices (1400px and up) */
 @media screen and (min-width:1400px) {
     #services .card-body {
         min-height: 390px;
