@@ -20,6 +20,7 @@
 
 body {
     font-family: var(--secondary-font);
+    color: var(--secondary-color);
     padding-top: 120px; /* This padding pushes the carousel down under the fixed navbar */
 }
 
@@ -45,6 +46,19 @@ body {
     border: 2px solid var(--highlight-color);
     background-color: var(--highlight-color);
     color: var(--primary-color);
+}
+
+.custom-button-outline {
+    border: 2px solid var(--highlight-color);
+    padding: 10px 17px;
+    color: var(--highlight-color);
+}
+
+.custom-button-outline:hover {
+    background-color: var(--highlight-color);
+    color: var(--primary-color);
+
+   
 }
 
 /* Navbar */
@@ -86,15 +100,19 @@ body {
 
 
 
-
-
-
 /* Carousel */
 #carousel-text {
-    font-size: 1.5rem;
     font-family: var(--primary-font);
-    color: var(--secondary-color);
+    font-size: 1.5rem;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: var(--highlight-color);
+}
+
+
+
 
 /* About me */
 
