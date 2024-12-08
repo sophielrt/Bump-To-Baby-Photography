@@ -96,15 +96,16 @@ h3 {
     border: 2px solid var(--secondary-color);
 }
 
+/* Controls for both Images Carousel and Testimonials Carousel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: var(--highlight-color);
+} 
+
 /* Carousel */
 #carousel-text {
     font-family: var(--primary-font);
     font-size: 1.5rem;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color: var(--highlight-color);
 } 
 
 /* About me */
@@ -122,8 +123,6 @@ h3 {
     width: 100%;
     height: auto;
 }
-
-
 
 /* Styling for both Services cards and testiomal cards */
 div.card {
@@ -149,9 +148,19 @@ h2.display-6 {
     margin-bottom: 4rem 0;
 }
 
+#services div.card-body {
+    padding-top: 3rem;
+}
+
 /* Testimonials */
-.testimonal-card {
-    margin: 10px; 
+#testimonials p.card-text {
+    font-family: var(--secondary-font);
+} 
+
+#testimonials div.card-body {
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 /* Media Queries */
@@ -161,9 +170,11 @@ h2.display-6 {
     #services .card-body {
         min-height: 286px;
     }
-
-
+    #testimonials .card-body {
+        min-height: 255px;
+    }
 }
+
 /* Large devices (992px and up) */
 @media screen and (min-width: 992px) {
     #services .card-body {
