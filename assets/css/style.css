@@ -163,6 +163,17 @@ h2.display-6 {
     padding-top: 1rem;
 }
 
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+}
+
+.sub-heading {
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+}
+
+
 /* Media Queries */
 
 /* Medium devices (768px and up) */
