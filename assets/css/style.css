@@ -7,13 +7,7 @@
     --secondary-font: "Montserrat", Tahoma, sans-serif;
     --primary-color: #F8EDE3;
     --secondary-color: #AD8B73;
-    --highlight-color: #c5705D;
-    
-
-    
-
-
-
+    --highlight-color: #c5705D;    
 }
 
 /* Global Styles */
@@ -161,6 +155,12 @@ h2.display-6 {
     padding-top: 3rem;
     padding-left: 2rem;
     padding-right: 2rem;
+}
+
+/* Form */
+
+.form-label {
+    padding-top: 1rem;
 }
 
 /* Media Queries */
