@@ -169,11 +169,6 @@ h2.display-6 {
     padding-bottom: 2rem;
 }
 
-.sub-heading {
-    font-family: var(--primary-font);
-    color: var(--secondary-color);
-}
-
 #contact i {
     color: var(--secondary-color);
     font-size: 1.2rem;
@@ -189,6 +184,14 @@ h2.display-6 {
     color: var(--highlight-color);
 }
 
+#opening-times * {
+    background-color: transparent;
+    color: var(--secondary-color);
+}
+
+#opening-times {
+    
+}
 /* Media Queries */
 
 /* Medium devices (768px and up) */
