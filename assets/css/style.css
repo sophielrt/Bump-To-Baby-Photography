@@ -164,13 +164,23 @@ h2.display-6 {
 }
 
 /* Footer */
-footer {
+#contact {
     background-color: var(--primary-color);
+    padding-bottom: 2rem;
 }
 
 .sub-heading {
     font-family: var(--primary-font);
     color: var(--secondary-color);
+}
+
+#contact i {
+    color: var(--secondary-color);
+}
+
+.social-media {
+    font-size: 2rem;
+    padding: 1rem 3rem;
 }
 
 
