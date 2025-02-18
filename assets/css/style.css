@@ -185,6 +185,9 @@ h2.display-6 {
     padding: 1rem 3rem;
 }
 
+#contact .social-media i:hover {
+    color: var(--highlight-color);
+}
 
 /* Media Queries */
 
