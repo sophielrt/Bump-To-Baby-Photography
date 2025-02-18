@@ -176,9 +176,11 @@ h2.display-6 {
 
 #contact i {
     color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-right: 8px;
 }
 
-.social-media {
+#contact .social-media i {
     font-size: 2rem;
     padding: 1rem 3rem;
 }
