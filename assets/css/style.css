@@ -189,6 +189,11 @@ h2.display-6 {
     color: var(--secondary-color);
 }
 
+/* Success Message Page */
+#success-message {
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+}
 
 /* Media Queries */
 
