@@ -200,17 +200,17 @@ h2.display-6 {
 /* Medium devices (768px and up) */
 @media screen and (min-width: 768px) {
     #services .card-body {
-        min-height: 286px;
+        min-height: 318px;
     }
     #testimonials .card-body {
-        min-height: 255px;
+        min-height: 310px;
     }
 }
 
 /* Large devices (992px and up) */
 @media screen and (min-width: 992px) {
     #services .card-body {
-        min-height: 240px;
+        min-height: 273px;
     }
 }
 
