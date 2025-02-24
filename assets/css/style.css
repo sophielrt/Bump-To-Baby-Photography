@@ -220,6 +220,7 @@ h2.display-6 {
         min-height: 419px;
     }
 }
+
 /* Extra extra large devices (1400px and up) */
 @media screen and (min-width:1400px) {
     #services .card-body {
