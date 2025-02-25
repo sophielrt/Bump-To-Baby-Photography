@@ -1,7 +1,21 @@
+# Bump to Baby Photography
+
+## Code Institure - Milestone One Project: User Centric Frontend Development
+
+# Table of contents
+- [Testing](#testing)
+  - [Manual Testing](#manual-testing)
+  - [Validator Testing](#validator-testing)
+
+
+## Testing
 
 ### Manual Testing
 
-##### Home Page Mnaual Testing
+1. Home Page Manual Testing
+
+| **Test Description** | **Expected Result** | **Outcome** |
+| ------------- | ------------- |:-----:|
 | Click on the "About me" link in the navigation | You should be taken to the About me section | Pass |
 | Click on the "Services" link in the navigation | You should be taken to the Services section | Pass |
 | Click on the "Testimonials" link in the navigation | You should be taken to the Testimonials section | Pass |
@@ -21,9 +35,10 @@
 | Click onto the map and drag your mouse and use the zoom in and out buttons | The map should be allow you to freely drag your mouse to move the map and zoom in and out | Pass |
 
 
-##### Form Submission Page Manual Testing 
+2. Form Submission Page Manual Testing
+
 | **Test Description** | **Expected Result** | **Outcome** |
-| ------------- |:-------------:| -----:|
+| ------------- | ------------- |:-----:|
 | Click on the logo in the navigation | Home page should load | Pass |
 | Click on the brand name in the navigation | Home page should load | Pass |
 | Click on the "Home" link in the navigation | Home page should load | Pass |
@@ -37,3 +52,8 @@
 | Click on the "Instagram" button in the footer | Instagram should load in a seperate tab | Pass |
 | Click on the  "x" button in the footer | X should load in a seperate tab  | Pass |
 | Click onto the map and drag your mouse and use the zoom in and out buttons | The map should be allow you to freely drag your mouse to move the map and zoom in and out | Pass |
+
+
+### Validator Testing
+
+1. HTML validator - [W3C Markup Validator](https://validator.w3.org/)
