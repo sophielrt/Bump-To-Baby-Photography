@@ -1,11 +1,22 @@
 # Bump to Baby Photography
 
-## Code Institure - Milestone One Project: User Centric Frontend Development
+## Code Institute - Milestone One Project: User Centric Frontend Development
 
-# Table of contents
-- [Testing](#testing)
+## [Live Website](https://sophielrt.github.io/Bump-To-Baby-Photography/)
+
+## Table of contents
+1. [UX](#ux)
+2. [Features](#features)
+3. [Technologies Utilised](#technologies-utilised)
+4. [Testing](#testing)
   - [Manual Testing](#manual-testing)
   - [Validator Testing](#validator-testing)
+  - [Google Light House Testing](#google-light-house-testing)
+  - [Web Accessibility in mind Contrast Checker](#web-accessibility-in-mind-contrast-checker)
+5. [Bugs](#bugs)
+6. [Deployment](#deployment)
+7. [Credit](#credit)
+
 
 
 ## Testing
@@ -57,3 +68,46 @@
 ### Validator Testing
 
 1. HTML validator - [W3C Markup Validator](https://validator.w3.org/)
+
+### Google Light House Testing
+
+
+
+## Deployment
+This project was developed using [Visual Studio Code](https://code.visualstudio.com/). The project was then commited to git and pushed to [GitHub](https://github.com/) using git functions.
+
+To delpoy this project from it [repository](https://github.com/sophielrt/Bump-To-Baby-Photography) to Github Pages, follow these steps:
+
+1. Log into GitHub.
+2. From the list of repositories, select **sophielrt/Bump-To-Baby-Photography**.
+3. Under the repository name, click on the **Settings** tab.
+4. Scroll down to the **Code and automations** section of the left sidebar and click **Pages**.
+5. Under the **Build and delpoyment**, in the **Sources** section, click the drop-down menu labeled **None** and select **main/master branch**.
+6. Once you select the **main/master branch**, the page will automatically refresh, meaning your website is now deployed.
+7. Scroll back down to the **Github pages** section to retrieve the link to your deployed site.
+
+### How to run this project locally
+
+To clone this project into Gitpod, follow these steps:
+1. Create a [Github](https://github.com/) account or log in.
+2. Ensure you are using the **Chrome** browser.
+3. Install the Gitpod browser extention for chrome: [Click to install browser extension](https://www.gitpod.io/docs/configure/user-settings/browser-extension).
+4. After installing the Gitpod browser extension, restart your browser.
+5. Create a [Gitpod](https://app.gitpod.io/login?redirect=%2F) account or log in. 
+6. Go to the project [repository](https://github.com/sophielrt/Bump-To-Baby-Photography).
+7. Click on the green Gitpod button (Gitpod logo) in the top right corner on your repository screen.
+8. This will create a new Gitpod worksapce from the code in the repository, allowing you to work on it locally.
+
+
+To clone this project from GitHub to a local IDE such as VSCode, Pycharm, etc., follow these steps:
+1. Go to the project [repository](https://github.com/sophielrt/Bump-To-Baby-Photography).
+2. Click on the green **Code** button in the top right corner of the repository screen.
+3. Under the **Clone** section, Copy the repository's HTTPS UTL.
+4. Open the terminal in your chosen local IDE.
+5. Navigate to the directory where you want tto clone the repository. 
+6. Type the **git clone** command, and paste the URL which was copied in step 3
+git clone http://github.com/sophielrt/Bump-To-Baby-Photography
+7. Press Enter, to create the local clone.
+
+
+
