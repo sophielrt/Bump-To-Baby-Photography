@@ -16,6 +16,10 @@
 5. [Bugs](#bugs)
 6. [Deployment](#deployment)
 7. [Credit](#credit)
+  - [Content](#content)
+  - [Media](#Media)
+  - [Code](#code)
+  - [Acknowledgements](#acknowledgements)
 
 ## UX
 
@@ -32,7 +36,7 @@
 
 ### Manual Testing
 
-1. Home Page Manual Testing
+#### 1. Home Page Manual Testing
 
 | **Test Description** | **Expected Result** | **Outcome** |
 | ------------- | ------------- |:-----:|
@@ -55,7 +59,7 @@
 | Click onto the map and drag your mouse and use the zoom in and out buttons | The map should be allow you to freely drag your mouse to move the map and zoom in and out | Pass |
 
 
-2. Form Submission Page Manual Testing
+#### 2. Form Submission Page Manual Testing
 
 | **Test Description** | **Expected Result** | **Outcome** |
 | ------------- | ------------- |:-----:|
@@ -118,7 +122,55 @@ To clone this project from GitHub to a local IDE such as VSCode, Pycharm, etc., 
 git clone http://github.com/sophielrt/Bump-To-Baby-Photography
 7. Press Enter, to create the local clone.
 
-### Credit
+## Credit
+
+### Content
+[ChatGPT](https://chatgpt.com/) was used to generate the text for the Home Page and the Form Submission Page.
+
+### Media
+
+## Logo
+- Bump-to-Baby-Logo.png
+The Logo was created by Sophie Trainor using images from [Canva](https://www.canva.com/) and was edited by Hayley So in [Procreate](https://procreate.com/).
+
+## Home Page
+- Bump-to-Baby-Carousel-Image1.jpg Unsplash Photo by: Kelly Sikkema
+- Bump-to-Baby-Carousel-Image2.jpg Unsplash Photo by: Camylla Battani
+- Bump-to-Baby-Carousel-Image3.jpg Unsplash Photo by: Andrea Bertozzini
+- Bump-to-Baby-Carousel-Image4.jpg Unsplash Photo by: Gigin Krishnan
+- Bump-to-Baby-Carousel-Image5.jpg Unsplash Photo by: Ciprian Sam
+- Bump-to-Baby-Carousel-Image6.jpg Unsplash Photo by: Luma Pimentel
+- Bump-to-Baby-Carousel-Image7.jpg Unsplash Photo by: Isaac Quesada
+- Bump-to-Baby-Carousel-Image8.jpg Unsplash Photo by: Jonathan Borba
+- Bump-to-Baby-Carousel-Image9.jpg Unsplash Photo by: Jonathan Borba
+- Bump-to-Baby-Carousel-Image10.jpg Unsplash Photo by: Travis Grossen
+- Bump-to-Baby-AboutMe.jpg Unsplash Photo by: Marco Xu
+- Bump-to-Baby-Services-Image1.jpg Unsplash Photo by: Freddy G
+- Bump-to-Baby-Services-Image2.jpg Unsplash Photo by: Rodolfo Allen
+- Bump-to-Baby-Services-Image3.jpg Unsplash Photo by: Lonela Mat
+- Bump-to-Baby-Services-Image4.jpg Unsplash Photo by: Zach Lucero
+- Bump-to-Baby-Testiomals-Image1.jpg Unsplash Photo by: Max Böhme
+- Bump-to-Baby-Testiomals-Image2.jpg Unsplash Photo by: Gigin Krishnan
+- Bump-to-Baby-Testiomals-Image3.jpg Unsplash Photo by: Shadab Khan
+- Bump-to-Baby-Testiomals-Image4.jpg Unsplash Photo by: Nilanka Kariyawasam
+- Bump-to-Baby-Testiomals-Image5.jpg Unsplash Photo by: Gigin Krishnan
+- Bump-to-Baby-Testiomals-Image6.jpg Unsplash Photo by: Jonathan Borba
+
+### Code
+
+### Acknowledgements
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
