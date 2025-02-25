@@ -7,7 +7,7 @@
 ## Table of contents
 1. [UX](#ux)
 2. [Features](#features)
-3. [Technologies Utilised](#technologies-utilised)
+3. [Technologies](#technologies)
 4. [Testing](#testing)
   - [Manual Testing](#manual-testing)
   - [Validator Testing](#validator-testing)
@@ -17,7 +17,16 @@
 6. [Deployment](#deployment)
 7. [Credit](#credit)
 
+## UX
 
+## Features
+
+## Technologies
+1. HTML5 - Used as the framework for structuring the website and containing its content.
+2. CSS3 - Applied for styling, layout and overall visual design.
+3. [Bootstrap V5.3](https://getbootstrap.com/) - Used to create a responsive website suitable for all screen sizes, utilizing pre-designed components and Bootstrap’s utility classes.
+4. [Google Fonts](https://fonts.google.com/) - Used to enhance typography with custom fonts.
+5. [Font Awesome](https://fontawesome.com/) - Provides a wide range of icons for better UI/UX.
 
 ## Testing
 
@@ -71,7 +80,7 @@
 
 ### Google Light House Testing
 
-
+## Bugs
 
 ## Deployment
 This project was developed using [Visual Studio Code](https://code.visualstudio.com/). The project was then commited to git and pushed to [GitHub](https://github.com/) using git functions.
@@ -108,6 +117,8 @@ To clone this project from GitHub to a local IDE such as VSCode, Pycharm, etc., 
 6. Type the **git clone** command, and paste the URL which was copied in step 3
 git clone http://github.com/sophielrt/Bump-To-Baby-Photography
 7. Press Enter, to create the local clone.
+
+### Credit
 
 
 
