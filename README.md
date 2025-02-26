@@ -1,6 +1,6 @@
 # Bump to Baby Photography
 
-![Website mockups, showing how the website looks on different devices.](./assets/read.me.images/read.me-mockup.png)
+![Website mockups, showing how the website looks on different devices.](./assets/read.me.assets/read.me-mockup.png)
 
 Bump to Baby Photography offers pregnancy, newborn, baby and family photography. The website allows you to view past work and includes an introduction to sofia, the photographer behind the business. Additionally, you can explore the services provides and read testimonials from previous clients. 
 
@@ -10,7 +10,7 @@ The site also features an enqiry form, studio contact details, opening times, so
 
 ## Code Institute - Milestone One Project: User Centric Frontend Development
 
-This website was developed for my Milestone One project to showcase my ability to build a static front-end site to presentS useful information to users using HTML and CSS.
+This website was developed for my Milestone One project to showcase my ability to build a static front-end site to present useful information to users using HTML and CSS.
 
 ## Table of contents
 1. [UX](#ux)
@@ -30,6 +30,8 @@ This website was developed for my Milestone One project to showcase my ability t
   - [Acknowledgements](#acknowledgements)
 
 ## UX
+
+![Brand board including: logo, typography, colour palette and moodboard](./assets/read.me.assets/read.me-brandboard.png)
 
 ## Features
 
