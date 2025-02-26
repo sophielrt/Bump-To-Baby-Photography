@@ -17,7 +17,6 @@ This website was developed for my Milestone One project to showcase my ability t
    - [Business Goals](#businessgoals)
    - [Target Users](#target-users)
    - [User Stories](#user-stories)
-   - [Structure](#structure)
    - [Design Choices](#design-choices)
    - [Wireframes](#wireframes)
 2. [Features](#features)
@@ -313,6 +312,10 @@ The Logo was created by Sophie Trainor using images from [Canva](https://www.can
 ### Code
 
 ### Acknowledgements
+- I would like to extend my gratitude to my New City College tutor, Andre Beckley, for his invaluable guidance.
+- Special thanks to my Code Institute mentor, Medale Oluwafemi, for their invaluable support and insights throughout the project.
+- My sincere appreciation goes to the tutor team at the Code Insitiute for their continued assistance.
+- The ideas presented were inspired by the Code Institute's Broadwalk Games and Love Running walkthrough projects.
 
 
 
