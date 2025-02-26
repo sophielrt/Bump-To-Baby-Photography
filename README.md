@@ -14,26 +14,26 @@ This website was developed for my Milestone One project to showcase my ability t
 
 ## Table of contents
 1. [UX](#ux)
-  - [Business Goals](#businessgoals)
-  - [Target Users](#target-users)
-  - [User Stories](#user-stories)
-  - [Structure](#structure)
-  - [Design Choices](#design-choices)
-  - [Wireframes](#wireframes)
+   - [Business Goals](#businessgoals)
+   - [Target Users](#target-users)
+   - [User Stories](#user-stories)
+   - [Structure](#structure)
+   - [Design Choices](#design-choices)
+   - [Wireframes](#wireframes)
 2. [Features](#features)
 3. [Technologies](#technologies)
 4. [Testing](#testing)
-  - [Manual Testing](#manual-testing)
-  - [Validator Testing](#validator-testing)
-  - [Google Light House Testing](#google-light-house-testing)
-  - [Web Accessibility in mind Contrast Checker](#web-accessibility-in-mind-contrast-checker)
+   - [Manual Testing](#manual-testing)
+   - [Validator Testing](#validator-testing)
+   - [Google Light House Testing](#google-light-house-testing)
+   - [Web Accessibility in mind Contrast Checker](#web-accessibility-in-mind-contrast-checker)
 5. [Bugs](#bugs)
 6. [Deployment](#deployment)
 7. [Credit](#credit)
-  - [Content](#content)
-  - [Media](#Media)
-  - [Code](#code)
-  - [Acknowledgements](#acknowledgements)
+   - [Content](#content)
+   - [Media](#Media)
+   - [Code](#code)
+   - [Acknowledgements](#acknowledgements)
 
 ## UX
 The user experience (UX) of Bump to Baby Photography is designed to prioritize simplicity, accessibility, and intuitive navigation, ensuring an optimal and seamless experience for all users.
@@ -71,10 +71,10 @@ The user experience (UX) of Bump to Baby Photography is designed to prioritize s
    - They want milestone photography to capture these precious moments of their first year.
 
 4. #### Families looking for Baby and Family Photography
-    - Families who want to document the new addition to their family. This may include parents and siblings who want to capture these special moments together.
+   - Families who want to document the new addition to their family. This may include parents and siblings who want to capture these special moments together.
 
 5. #### Friends and Family looking for a gift(newborn gift, baby, shower gift)
-    - Friends or family members who want to gift a photography session to expecting or new parents.
+   - Friends or family members who want to gift a photography session to expecting or new parents.
 
 ### User Stories
 1. As a customer, I want to view high-qailty images of the photgrapher's previous photoshoots so I can asses the qaulity of there work.
@@ -90,7 +90,7 @@ The user experience (UX) of Bump to Baby Photography is designed to prioritize s
 ### Design Choices
 ![Brand board including: logo, typography, colour palette and moodboard](./assets/read.me.assets/read.me-brandboard.png)
 1. Logo
-   - 
+   -
 2. Typography
    - 
 3. Colour Palette
@@ -101,28 +101,79 @@ The user experience (UX) of Bump to Baby Photography is designed to prioritize s
 ### Wireframes
 
 ## Features
-1. Navigation Bar
+1. #### Navigation Bar
+   - It is fixed to the top of the page to ensure it is always accessible while scrolling.
+   - It aligns with the page content to maintain a clean and visually appealing design.
+   - The logo is positioned on the left side of the navigation bar, with the brand name in the center; both link to the index.html page.
+   - Navigation links are on the right side of the navigation bar,
+    directing the users either to a new page or a specific section of the current page.
+   - A call-to-action button("Enquire now") is positioned on the right side of the navigation bar to encourage users to make enquiries.
+   - The active attribute is applied to the current, making the corresponding navigation link bold to indicate the user's location.
+   - The hover effect is added to the navigation links and the call-to-action button to enhance user experience.
+   - It is responsive on smaller devices such as phones and tablets, it changes to a hamburger menu with the icon positioned in the right-hand corner.
 ![Bump to Baby Photography Website Navigation Bar](./assets/read.me.assets/read.me-features-navigationbar.JPG)
 
-2. Carousel
+2. #### Carousel
+   - Displays a collection of 10 high-quality images related to pregnancy, newborns, and babies.
+   - Uses Bootsrap's carousel component to transition between images.
+   - The first image is set as active, meaning it is the first image visitors see when they arrive on the website.
+   - The carousel automatically transitions between images.
+   - Users can override the automatic trainsitions and manually navigate using the previous and next buttons.
+   - Below the carousel, a short description emphasises the emotional aspect of the images.
+   - A call-to-action button ("Enquire now) is positioned beneath the carousel text, encouraging users to reach out via the enquiry form.
+   - The hover effect is added to the call-to-action button to enhance user experience.
 ![Bump to Baby Photography Website Carousel](./assets/read.me.assets/read.me-features-carousel.JPG)
 
-3. About me
+3. #### About me
+   - Displays a high-quality image to visually introduce the photographer.
+   - Two-column responsive design using the grid system.
+   - An engaging and welcoming personal introduction to the photographer, highlighing her passion, specilazation and experience.
 ![Bump to Baby Photography Website About Me](./assets/read.me.assets/read.me-features-aboutme.JPG)
 
-4. Services
+4. #### Services
+   - Has 4 cards that contain high-quality image and details of each service.
+   - Uses the grid system to ensure the design is responsive and adapts to different screen sizes.
+   - A call-to-action button ("Enquire now") is position beneath the 4 services cards, encourging users to reach out via the enquiry form.
+   - The hover effect is added to the call-to-action button to enhance user experience.
 ![Bump to Baby Photography Website Services](./assets/read.me.assets/read.me-features-services.JPG)
 
-5. Testimonials
+5. #### Testimonials
+   - This section uses a carousel to display multiple testimonials.
+   - The carousel automatically transitions between testimonials, but users can manually navigate through testimonials using the previous and next buttons.
+   - Each testimonial is placed within a card, which includes image, name, testimonial and star ratings.
+   - Each testiomonial uses a high-quality image of the client's photoshoot, adding a personal touch and authenticity.
+   - Each testimonial includes a star rating (from 1 to 5 stars) represented by Font Awesome Stars.
+   - The grid system ensure that the testimonials are reponsive and adapt to different screen sizes.
 ![Bump to Baby Photography Website Testimonials](./assets/read.me.assets/read.me-features-testimonials.JPG)
 
-6. Enquiry Form
+6. #### Enquiry Form
+   - Introduction text describing the importance of maternity and newborn photography, inviting user to submit the form.
+   - The grid system ensures that the enquiry form is reponsive and works effectively on different screen sizes.
+   - Includes form fields for full name (text input), phone number (number input), email address (email input) and message (text input).
+   - Form filds include requird attribute, ensuring that users can not submit the form without filling all fields correctly.
+   - The form sends a GET request, redirecting the user to a form submission page once they press the submit button.
+   - The submit button allows the user to submit the form and be redirected to the form submission page.
+   - A hover effect is applied to the submit button to enhance user experience.
 ![Bump to Baby Photography Website Enquiry Form](./assets/read.me.assets/read.me-features-enquiryform.JPG)
 
-7. Enqiry Form Submission Page Message
+7. #### Enqiry Form Submission Page Message
+   - Displays a thank you message for users who has successfully submitted the form.
+   - Headline thanking users for their enquiry.
+   - Message including personal text from the photographer, expressing excitement about being part of the user's journey.
+   - Explains next steps, informing the user they will be contacted within 24-48 hours.
+   - Call-to-action button that navigates the user back to the Home Page.
+   - A hover effect applied to the call-to-action button to enhance user experince.
 ![Bump to Baby Photography Website Enquiry Form Submission Message](./assets/read.me.assets/read.me-features-formsubmissionmessage.JPG)
 
-8. Contact Us Footer
+8. #### Contact Us Footer
+   - Contact information including business address, phone number, and email address.
+   - Contact information has uses Font Awesome icons for location, phone number and email to enhance user experience and visual appeal.
+   - Studio opening times are clearly displayed in a table
+   - Font Awesome icons are used for social media logos. Each icon links to the platfrom's social media page and open in a new tab.
+   - A hover effect is applied to the social media icons to enhance user experince.
+   - Embedded Google Map shows the user the location of the Bump to Baby Photography studio.
+   - The embedded Google Map is responsive.
+   - The grid system ensures that the section is responsive and adapts to different screen sizes.
 ![Bump to Baby Photography Website Contact Us Footer](./assets/read.me.assets/read.me-features-contactus.JPG)
 
 
@@ -184,6 +235,8 @@ The user experience (UX) of Bump to Baby Photography is designed to prioritize s
 1. HTML validator - [W3C Markup Validator](https://validator.w3.org/)
 
 ### Google Light House Testing
+
+### Web Accessibility in mind Contrast Checker
 
 ## Bugs
 
