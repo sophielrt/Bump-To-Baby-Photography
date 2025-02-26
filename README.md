@@ -2,13 +2,15 @@
 
 ![Website mockups, showing how the website looks on different devices.](./assets/read.me.images/read.me-mockup.png)
 
+Bump to Baby Photography offers pregnancy, newborn, baby and family photography. The website allows you to view past work and includes an introduction to sofia, the photographer behind the business. Additionally, you can explore the services provides and read testimonials from previous clients. 
 
-
-## Code Institute - Milestone One Project: User Centric Frontend Development
+The site also features an enqiry form, studio contact details, opening times, social media information and location information. However, this is only the first iteration of the Bump to Baby Photography website - additional sections including a gallery and a price & packages section, will be added in the future, please see the wireframes for further details.
 
 ## [Live Website](https://sophielrt.github.io/Bump-To-Baby-Photography/)
 
+## Code Institute - Milestone One Project: User Centric Frontend Development
 
+This website was developed for my Milestone One project to showcase my ability to build a static front-end site to presentS useful information to users using HTML and CSS.
 
 ## Table of contents
 1. [UX](#ux)
