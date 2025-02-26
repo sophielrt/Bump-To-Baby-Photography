@@ -59,23 +59,23 @@ This website was developed for my Milestone One project to showcase my ability t
 
 
 ### User Stories
-#### User 1: Expecting Parents
-             - Couples or single parents who are expecting a baby and looking for maternity   and/or newborn photography.
-             - They want maternity photography to document their pregnancy journey and/or newborn photography to capture their baby's arrival
+1. #### Expecting Parents
+   - Couples or single parents who are expecting a baby and looking for maternity   and/or newborn photography.
+   - They want maternity photography to document their pregnancy journey and/or newborn photography to capture their baby's arrival
 
-#### User 2: New Parents (After Birth)
-             - Parents who have recently had a baby and want to document this special time with a professional photoshoot.
-             -They may use newborn photography to announce their baby's birth or simple to perserve these precious moments.
+2. #### New Parents (After Birth)
+   - Parents who have recently had a baby and want to document this special time with a professional photoshoot.
+   -They may use newborn photography to announce their baby's birth or simple to perserve these precious moments.
 
-#### User 3: Parents looking for Milestone Baby Photography
-             - Parents who want to document they key stages of their baby's first year.
-             - They want milestone photography to capture these precious moments of their first year.
+3. #### Parents looking for Milestone Baby Photography
+   - Parents who want to document they key stages of their baby's first year.
+   - They want milestone photography to capture these precious moments of their first year.
 
-#### User 4: Families looking for Baby and Family Photography
-             - Families who want to document the new addition to their family. This may include parents and siblings who want to capture these special moments together.
+4. #### Families looking for Baby and Family Photography
+    - Families who want to document the new addition to their family. This may include parents and siblings who want to capture these special moments together.
 
-#### User 5: Friends and Family looking for a gift(newborn gift, baby, shower gift)
-             - Friends or family members who want to gift a photography session to expecting or new parents.
+5. #### Friends and Family looking for a gift(newborn gift, baby, shower gift)
+    - Friends or family members who want to gift a photography session to expecting or new parents.
 
 
 
