@@ -15,6 +15,7 @@ This website was developed for my Milestone One project to showcase my ability t
 ## Table of contents
 1. [UX](#ux)
   - [Business Goals](#businessgoals)
+  - [Target Users](#target-users)
   - [User Stories](#userstories)
   - [Strategy](#strategy)
   - [Scope](#scope)
@@ -58,14 +59,14 @@ This website was developed for my Milestone One project to showcase my ability t
    - Display the studio's location using a map to help users find us easily.
 
 
-### User Stories
+### Target Users
 1. #### Expecting Parents
-   - Couples or single parents who are expecting a baby and looking for maternity   and/or newborn photography.
+   - Couples or single parents who are expecting a baby and looking for maternity and/or newborn photography.
    - They want maternity photography to document their pregnancy journey and/or newborn photography to capture their baby's arrival
 
 2. #### New Parents (After Birth)
    - Parents who have recently had a baby and want to document this special time with a professional photoshoot.
-   -They may use newborn photography to announce their baby's birth or simple to perserve these precious moments.
+   - They may use newborn photography to announce their baby's birth or simple to perserve these precious moments.
 
 3. #### Parents looking for Milestone Baby Photography
    - Parents who want to document they key stages of their baby's first year.
@@ -77,7 +78,16 @@ This website was developed for my Milestone One project to showcase my ability t
 5. #### Friends and Family looking for a gift(newborn gift, baby, shower gift)
     - Friends or family members who want to gift a photography session to expecting or new parents.
 
-
+### User Stories
+1. As a customer, I want to view high-qailty images of the photgrapher's previous photoshoots so I can asses the qaulity of there work.
+2. As a customer, I want to navigate the website easily, ensuring it's user-friendly and responsive across different devices.
+3. As a customer, I want the information on the website to be clearly laid out so I can find what I need quickly.
+4. As a customer, I want to learn more about the photographer, including their background and experience, so I can trust their expertise.
+5. As a customer, I want to see a list of services provided, so I can decide which option best suit my needs.
+6. As a customer, I want to read testimonials from previous customers, so I can get an idea od the photographer's reputation and the qaulity of service.
+7. As a customer, I want to view the studio's opening times and contain details, so I can easily contact them or plan my visit.
+8. As a customer, I want to be able to fill out an enquiry form, so I canm ask questions, book a session or request more information directly and quickly.
+9. As a customer, I want to easily access the photography studio's social media profiles, so I can follow and see their latest work and updates.
 
 ### Strategy
 ### Scope
