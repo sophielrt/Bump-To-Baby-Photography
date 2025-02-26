@@ -16,12 +16,10 @@ This website was developed for my Milestone One project to showcase my ability t
 1. [UX](#ux)
   - [Business Goals](#businessgoals)
   - [Target Users](#target-users)
-  - [User Stories](#userstories)
-  - [Strategy](#strategy)
-  - [Scope](#scope)
+  - [User Stories](#user-stories)
   - [Structure](#structure)
-  - [Skelton](#skelton)
-  - [Surface](#surface)
+  - [Design Choices](#design-choices)
+  - [Wireframes](#wireframes)
 2. [Features](#features)
 3. [Technologies](#technologies)
 4. [Testing](#testing)
@@ -38,7 +36,7 @@ This website was developed for my Milestone One project to showcase my ability t
   - [Acknowledgements](#acknowledgements)
 
 ## UX
-
+The user experience (UX) of Bump to Baby Photography is designed to prioritize simplicity, accessibility, and intuitive navigation, ensuring an optimal and seamless experience for all users.
 
 ### Business Goals
 1. #### Attracting Potential Customers
@@ -89,15 +87,44 @@ This website was developed for my Milestone One project to showcase my ability t
 8. As a customer, I want to be able to fill out an enquiry form, so I canm ask questions, book a session or request more information directly and quickly.
 9. As a customer, I want to easily access the photography studio's social media profiles, so I can follow and see their latest work and updates.
 
-### Strategy
-### Scope
-### Structure
-### Skelton
-### Surface
-
+### Design Choices
 ![Brand board including: logo, typography, colour palette and moodboard](./assets/read.me.assets/read.me-brandboard.png)
+1. Logo
+   - 
+2. Typography
+   - 
+3. Colour Palette
+   - 
+4. Images
+   - 
+
+### Wireframes
 
 ## Features
+1. Navigation Bar
+![Bump to Baby Photography Website Navigation Bar](./assets/read.me.assets/read.me-features-navigationbar.JPG)
+
+2. Carousel
+![Bump to Baby Photography Website Carousel](./assets/read.me.assets/read.me-features-carousel.JPG)
+
+3. About me
+![Bump to Baby Photography Website About Me](./assets/read.me.assets/read.me-features-aboutme.JPG)
+
+4. Services
+![Bump to Baby Photography Website Services](./assets/read.me.assets/read.me-features-services.JPG)
+
+5. Testimonials
+![Bump to Baby Photography Website Testimonials](./assets/read.me.assets/read.me-features-testimonials.JPG)
+
+6. Enquiry Form
+![Bump to Baby Photography Website Enquiry Form](./assets/read.me.assets/read.me-features-enquiryform.JPG)
+
+7. Enqiry Form Submission Page Message
+![Bump to Baby Photography Website Enquiry Form Submission Message](./assets/read.me.assets/read.me-features-formsubmissionmessage.JPG)
+
+8. Contact Us Footer
+![Bump to Baby Photography Website Contact Us Footer](./assets/read.me.assets/read.me-features-contactus.JPG)
+
 
 ## Technologies
 1. HTML5 - Used as the framework for structuring the website and containing its content.
