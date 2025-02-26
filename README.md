@@ -1,8 +1,14 @@
 # Bump to Baby Photography
 
+![Website mockups, showing how the website looks on different devices.](./assets/read.me.images/read.me-mockup.png)
+
+
+
 ## Code Institute - Milestone One Project: User Centric Frontend Development
 
 ## [Live Website](https://sophielrt.github.io/Bump-To-Baby-Photography/)
+
+
 
 ## Table of contents
 1. [UX](#ux)
