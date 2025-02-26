@@ -88,14 +88,20 @@ The user experience (UX) of Bump to Baby Photography is designed to prioritize s
 
 ### Design Choices
 ![Brand board including: logo, typography, colour palette and moodboard](./assets/read.me.assets/read.me-brandboard.png)
-1. Logo
-   -
-2. Typography
-   - 
-3. Colour Palette
-   - 
-4. Images
-   - 
+1. Typography
+ - Old Standard TT has been chosen for the headings on the website due to it timeless and traditional look. This offten evokes a sense of trustworthiness and reliability, which is the feeling we want users to experience. It is also highly accessiable,  as it is legible and easy to read, with broad support across different browsers. 
+ - Monstserrat has been selected as the primary font of the website's content becuase of its sleek, clean apperance, making it ideal for larger amounts of text. It is highly accessiable as well, with excellenet legibility and ease of reading, and is widely supported across different browsers.
+  
+
+2. Colour Palette
+   - The colour palette was selected to create a warm, netral atmosphere, fostering a welcoming and comfortable environment. These soft, tones mirror the calm and intimate nature of maternity and baby photography.
+   - This colour palette is well-suited to the website, as it evokes a sense of calm, whilst ensuring readability and accessibility, ultimately contributing to an overall positive user experience.
+   - This colour palette also complements the nurturing essense of the service offered, helping to create an inviting space for expecting parents.
+
+3. Images
+   - All images used were carefully selected to ensure they are of high-qaulity.
+   - Images were chosen to resonate with the users and attract them to become customers.
+   - The images were carefully selected to ensure they represent the section in which they are place and reflect the content accurately.
 
 ### Wireframes
 
