@@ -24,7 +24,7 @@ This website was developed for my Milestone One project to showcase my ability t
 4. [Testing](#testing)
    - [Manual Testing](#manual-testing)
    - [Validator Testing](#validator-testing)
-   - [Google Light House Testing](#google-light-house-testing)
+   - [Google Lighthouse Testing](#google-lighthouse-testing)
    - [Web Accessibility in mind Contrast Checker](#web-accessibility-in-mind-contrast-checker)
 5. [Bugs](#bugs)
 6. [Deployment](#deployment)
@@ -187,6 +187,8 @@ The user experience (UX) of Bump to Baby Photography is designed to prioritize s
 3. [Bootstrap V5.3](https://getbootstrap.com/) - Used to create a responsive website suitable for all screen sizes, utilizing pre-designed components and Bootstrap’s utility classes.
 4. [Google Fonts](https://fonts.google.com/) - Used to enhance typography with custom fonts.
 5. [Font Awesome](https://fontawesome.com/) - Provides a wide range of icons for better UI/UX.
+6. [TinyPNG](https://tinypng.com/) - Reduces image file size.
+7. [Squoosh](https://squoosh.app/) - Reduces image file size.
 
 ## Testing
 
@@ -237,8 +239,29 @@ The user experience (UX) of Bump to Baby Photography is designed to prioritize s
 ### Validator Testing
 
 1. HTML validator - [W3C Markup Validator](https://validator.w3.org/)
+    - The following Pages were validated:
+       - index.html
+       - formsubmission.html 
+   Html validator test passed no errors or warnings.
+![W3C Markup validator results](./assets/read.me.assets/read.me-w3cmarkupvalidator.JPG)
 
-### Google Light House Testing
+2. CSS Validator - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+    CSS validator test passed no errors found.
+![W3C CSS validator results](./assets/read.me.assets/read.me-w3ccssvalidator.JPG)
+
+### Google Lighthouse Testing
+
+1. index.html results
+    - Peformance: 93/100
+    - Accessibility: 100/100
+    - Best Practices: 100/100
+![Google Lighthouse test result for index.html](./assets/read.me.assets/read.me-lighthouseindex.html.JPG)
+
+2. formsubmission.html results
+    - Performance: 97/100
+    - Accessibility: 100/100
+    - Best Practices: 100/100
+![Google Lighthouse test result for formsubmission.html](./assets/read.me.assets/read.me-lighthouseformsubmission.JPG)
 
 ### Web Accessibility in mind Contrast Checker
 [Web Accessibility in mind contrast checker](https://webaim.org/resources/contrastchecker/?fcolor=02AFD0&bcolor=FFFF00)
