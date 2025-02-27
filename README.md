@@ -241,6 +241,15 @@ The user experience (UX) of Bump to Baby Photography is designed to prioritize s
 ### Google Light House Testing
 
 ### Web Accessibility in mind Contrast Checker
+[Web Accessibility in mind contrast checker](https://webaim.org/resources/contrastchecker/?fcolor=02AFD0&bcolor=FFFF00)
+
+- All contrast checkers where passed, meaning that these colours meet website accessibility standards for suitability and readabilty.
+
+![Web Accessibility in mind contarct checker testing #4F4130 and #F8EDE3](./assets/read.me.assets/read.me-contrastchecker1.JPG)
+![Web Accessibility in mind contarct checker testing #703629 and #F8EDE3](./assets/read.me.assets/read.me-contrastchecker2.JPG)
+![Web Accessibility in mind contarct checker testing #4F4130 and #FFFFFF](./assets/read.me.assets/read.me-contrastchecker3.JPG)
+![Web Accessibility in mind contarct checker testing #703629 and #FFFFFF ](./assets/read.me.assets/read.me-contrastchecker4.JPG)
+
 
 ## Bugs
 
