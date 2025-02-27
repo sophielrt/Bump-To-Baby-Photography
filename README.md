@@ -4,7 +4,7 @@
 
 Bump to Baby Photography offers pregnancy, newborn, baby and family photography. The website allows you to view past work and includes an introduction to sofia, the photographer behind the business. Additionally, you can explore the services provides and read testimonials from previous clients. 
 
-The site also features an enqiry form, studio contact details, opening times, social media information and location information. However, this is only the first iteration of the Bump to Baby Photography website - additional sections including a gallery and a price & packages section, will be added in the future, please see the wireframes for further details.
+The site also features an enqiry form, studio contact details, opening times, social media information and location information. However, this is only the first iteration of the Bump to Baby Photography website - additional sections including a gallery and a price & packages section, will be added in the future.
 
 ## [Live Website](https://sophielrt.github.io/Bump-To-Baby-Photography/)
 
@@ -18,7 +18,7 @@ This website was developed for my Milestone One project to showcase my ability t
    - [Target Users](#target-users)
    - [User Stories](#user-stories)
    - [Design Choices](#design-choices)
-   - [Wireframes](#wireframes)
+   - [Wireframe](#wireframe)
 2. [Features](#features)
 3. [Technologies](#technologies)
 4. [Testing](#testing)
@@ -102,7 +102,9 @@ The user experience (UX) of Bump to Baby Photography is designed to prioritize s
    - Images were chosen to resonate with the users and attract them to become customers.
    - The images were carefully selected to ensure they represent the section in which they are place and reflect the content accurately.
 
-### Wireframes
+### Wireframe
+I designed the wireframe using Balsamiq. After creating the homepage wireframe and discussing it with my mentor, it was decide to focus solely on the homepage for this iteration. Additionally, a services section was added inbetween the "About Me" and "Testiomonials" section to better structure the content, as this is currently a one-page website.
+[Home Page Wirefram](./assets/read.me.assets/read.me-homepagewireframe.pdf)
 
 ## Features
 1. #### Navigation Bar
@@ -348,6 +350,13 @@ The Logo was created by Sophie Trainor using images from [Canva](https://www.can
 - Bump-to-Baby-Testiomals-Image6.jpg Unsplash Photo by: Jonathan Borba
 
 ### Code
+- Boostrap V5.3
+- W3schools
+- Stackoverflow
+- Youtube Video OnlinelTtuts Tutorials (iframe)
+- Jamie Juviler Step-By-Step-Guide HubSpot Blog (iframe)
+- Geeks for Geeks (Logo Icon and Testiomonials)
+- Coding Year (Bootstrap Burger Icon NavBar Colour Change)
 
 ### Acknowledgements
 - I would like to extend my gratitude to my New City College tutor, Andre Beckley, for his invaluable guidance.
