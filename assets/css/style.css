@@ -189,6 +189,13 @@ h2.display-6 {
     color: var(--secondary-color);
 }
 
+/* Google Maps */
+.map {
+    width: 100%; 
+    height: 450; 
+    border: 0;
+}
+
 /* Success Message Page */
 #success-message {
     padding-top: 3rem;
