@@ -246,18 +246,18 @@ The user experience (UX) of Bump to Baby Photography is designed to prioritize s
 ![W3C Markup validator results](./assets/read.me.assets/read.me-w3cmarkupvalidator.JPG)
 
 2. CSS Validator - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-    CSS validator test passed no errors found.
+    - CSS validator test passed no errors found.
 ![W3C CSS validator results](./assets/read.me.assets/read.me-w3ccssvalidator.JPG)
 
 ### Google Lighthouse Testing
 
-1. index.html results
+1. index.html results:
     - Peformance: 93/100
     - Accessibility: 100/100
     - Best Practices: 100/100
 ![Google Lighthouse test result for index.html](./assets/read.me.assets/read.me-lighthouseindex.html.JPG)
 
-2. formsubmission.html results
+2. formsubmission.html results:
     - Performance: 97/100
     - Accessibility: 100/100
     - Best Practices: 100/100
@@ -273,8 +273,9 @@ The user experience (UX) of Bump to Baby Photography is designed to prioritize s
 ![Web Accessibility in mind contarct checker testing #4F4130 and #FFFFFF](./assets/read.me.assets/read.me-contrastchecker3.JPG)
 ![Web Accessibility in mind contarct checker testing #703629 and #FFFFFF ](./assets/read.me.assets/read.me-contrastchecker4.JPG)
 
-
 ## Bugs
+1. The first bug I encountered was with my testimonials carousel.The control where not working, meaning it would autoplay, but users couldn't manually navigate it. The issue occurred because I had two carousels with controls using the same ID's, causing the testionimals carousel to be overidden by the first one. Once I assigned unique identifying properties to each carousel, they functioned independently, with controls correctly targeting their respective elements using the data-bs-target property.
+2. The secound bug I encountered was with the testimonials link in the navigation bar. The ID was missspelled in the navigation link; however, it still directed users to the testiomonials section on the page. The issue was that the link appeared black when clicked instead of matching the colour of the other links. Once the spelling error was corrected, the testimonials navigation link functioned as exspected.
 
 ## Deployment
 This project was developed using [Visual Studio Code](https://code.visualstudio.com/). The project was then commited to git and pushed to [GitHub](https://github.com/) using git functions.
