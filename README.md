@@ -143,7 +143,17 @@ I designed the wireframe using Balsamiq. After creating the homepage wireframe a
    - The hover effect is added to the call-to-action button to enhance user experience.
 ![Bump to Baby Photography Website Services](./assets/read.me.assets/read.me-features-services.JPG)
 
-5. #### Testimonials
+5. #### Behind the scenes video
+- The section includes explanatory text inviting users to join the behind-the-scenes experience of the photoshoot.
+- A Font Awesome play icon button is provided which triggers the modal containing the video when clicked.
+- The video is displayed within a Bootstrap 5 modal. Once users finish watching the video, they can close the modal by clicking on a Font Awesome "X" icon and return to the home page.
+- The video uses both MP4 and WEBM formats to ensure compatibility and accessibility across different browsers.
+- The video is muted by default, but users have the option to unmute it using the video controls provided.
+- The Modal is designed to be responsive, adapting to various screen sizes ensure positive user experience across different devices.
+![Bump to Baby Photography website behind the scenes](./assets/read.me.assets/read.me-features-behindthescenes1.JPG)
+![Bump to Baby Photography website behind the scenes](./assets/read.me.assets/read.me-features-behindthescenes2.JPG)
+
+6. #### Testimonials
    - This section uses a carousel to display multiple testimonials.
    - The carousel automatically transitions between testimonials, but users can manually navigate through testimonials using the previous and next buttons.
    - Each testimonial is placed within a card, which includes image, name, testimonial and star ratings.
@@ -152,7 +162,7 @@ I designed the wireframe using Balsamiq. After creating the homepage wireframe a
    - The grid system ensure that the testimonials are responsive and adapt to different screen sizes.
 ![Bump to Baby Photography Website Testimonials](./assets/read.me.assets/read.me-features-testimonials.JPG)
 
-6. #### Enquiry Form
+7. #### Enquiry Form
    - Introduction text describing the importance of maternity and newborn photography, inviting user to submit the form.
    - The grid system ensures that the enquiry form is responsive and works effectively on different screen sizes.
    - Includes form fields for full name (text input), phone number (number input), email address (email input) and message (text input).
@@ -162,7 +172,7 @@ I designed the wireframe using Balsamiq. After creating the homepage wireframe a
    - A hover effect is applied to the submit button to enhance user experience.
 ![Bump to Baby Photography Website Enquiry Form](./assets/read.me.assets/read.me-features-enquiryform.JPG)
 
-7. #### Enquiry Form Submission Page Message
+8. #### Enquiry Form Submission Page Message
    - Displays a thank you message for users who has successfully submitted the form.
    - Headline thanking users for their enquiry.
    - Message including personal text from the photographer, expressing excitement about being part of the user's journey.
@@ -171,7 +181,7 @@ I designed the wireframe using Balsamiq. After creating the homepage wireframe a
    - A hover effect applied to the call-to-action button to enhance user experience.
 ![Bump to Baby Photography Website Enquiry Form Submission Message](./assets/read.me.assets/read.me-features-formsubmissionmessage.JPG)
 
-8. #### Contact Us Footer
+9. #### Contact Us Footer
    - Contact information including business address, phone number, and email address.
    - Contact information has uses Font Awesome icons for location, phone number and email to enhance user experience and visual appeal.
    - Studio opening times are clearly displayed in a table
@@ -191,6 +201,7 @@ I designed the wireframe using Balsamiq. After creating the homepage wireframe a
 5. [Font Awesome](https://fontawesome.com/) - Provides a wide range of icons for better UI/UX.
 6. [TinyPNG](https://tinypng.com/) - Reduces image file size.
 7. [Squoosh](https://squoosh.app/) - Reduces image file size.
+8. [cloudconvert](https://cloudconvert.com/) - Used to convert a video from a mp4 to a webm.
 
 ## Testing
 
@@ -209,6 +220,11 @@ I designed the wireframe using Balsamiq. After creating the homepage wireframe a
 | Click on the prev and next buttons on the carousel | The carousel moves on a timer but using the buttons will allow you to skip forward or backwards | Pass |
 | Click on the "Enquire now" button below the carousel | You should be taken to the enquiry form | Pass |
 | Click on the "Enquire now" button below the services section | You should be taken to the enquiry form | Pass |
+| Click on the play button in the behind the scenes section | The video modal should open | Pass |
+| Click on the video play button in the behind the scenes modal | The video should play | Pass |
+| Click on the video volume button in the behind the scenes modal | The video should un-mute and you will hear the video sound | Pass |
+| Click on the full screen button in the behind the scenes modal | The video should go to full screen | Pass |
+| Click on the cross in the top right corner of the behind the scenes modal | The modal should close and you will be back to the behind the scenes section on the home page | Pass |
 | Check that the Testimonials carousel autoplay's | The carousel should autoplay on its own | Pass |
 | Click on the prev and next button on the Testimonials carousel | The carousel moves on a timer but using the buttons will allow you to skip forward or backwards | Pass |
 | Fill out the form with invalid details | The form will not let you continue and will display and error message informing you of what you need to do | Pass |
@@ -217,7 +233,7 @@ I designed the wireframe using Balsamiq. After creating the homepage wireframe a
 | Click on the "Instagram" button in the footer | Instagram should load in a separate tab | Pass |
 | Click on the "x" button in the footer | X should load in a separate tab  | Pass |
 | Click onto the map and drag your mouse and use the zoom in and out buttons | The map should allow you to freely drag your mouse to move the map and zoom in and out | Pass |
-
+| In the inspect tab check the homepage break-points | The homepage should be full responsive on all devices | Pass |
 
 #### 2. Form Submission Page Manual Testing
 
@@ -236,7 +252,7 @@ I designed the wireframe using Balsamiq. After creating the homepage wireframe a
 | Click on the "Instagram" button in the footer | Instagram should load in a separate tab | Pass |
 | Click on the "x" button in the footer | X should load in a separate tab  | Pass |
 | Click onto the map and drag your mouse and use the zoom in and out buttons | The map should be allow you to freely drag your mouse to move the map and zoom in and out | Pass |
-
+| In the inspect tab check the submission page break-points | The submission page should be full responsive on all devices | Pass |
 
 ### Validator Testing
 
@@ -327,27 +343,29 @@ git clone http://github.com/sophielrt/Bump-To-Baby-Photography
 The Logo was created by Sophie Trainor using images from [Canva](https://www.canva.com/) and was edited by Hayley So in [Procreate](https://procreate.com/).
 
 ## Home Page
-- Bump-to-Baby-Carousel-Image1.jpg Unsplash Photo by: Kelly Sikkema
-- Bump-to-Baby-Carousel-Image2.jpg Unsplash Photo by: Camylla Battani
-- Bump-to-Baby-Carousel-Image3.jpg Unsplash Photo by: Andrea Bertozzini
-- Bump-to-Baby-Carousel-Image4.jpg Unsplash Photo by: Gigin Krishnan
-- Bump-to-Baby-Carousel-Image5.jpg Unsplash Photo by: Ciprian Sam
-- Bump-to-Baby-Carousel-Image6.jpg Unsplash Photo by: Luma Pimentel
-- Bump-to-Baby-Carousel-Image7.jpg Unsplash Photo by: Isaac Quesada
-- Bump-to-Baby-Carousel-Image8.jpg Unsplash Photo by: Jonathan Borba
-- Bump-to-Baby-Carousel-Image9.jpg Unsplash Photo by: Jonathan Borba
-- Bump-to-Baby-Carousel-Image10.jpg Unsplash Photo by: Travis Grossen
-- Bump-to-Baby-AboutMe.jpg Unsplash Photo by: Marco Xu
-- Bump-to-Baby-Services-Image1.jpg Unsplash Photo by: Freddy G
-- Bump-to-Baby-Services-Image2.jpg Unsplash Photo by: Rodolfo Allen
-- Bump-to-Baby-Services-Image3.jpg Unsplash Photo by: Lonela Mat
-- Bump-to-Baby-Services-Image4.jpg Unsplash Photo by: Zach Lucero
-- Bump-to-Baby-Testiomals-Image1.jpg Unsplash Photo by: Max Böhme
-- Bump-to-Baby-Testiomals-Image2.jpg Unsplash Photo by: Gigin Krishnan
-- Bump-to-Baby-Testiomals-Image3.jpg Unsplash Photo by: Shadab Khan
-- Bump-to-Baby-Testiomals-Image4.jpg Unsplash Photo by: Nilanka Kariyawasam
-- Bump-to-Baby-Testiomals-Image5.jpg Unsplash Photo by: Gigin Krishnan
-- Bump-to-Baby-Testiomals-Image6.jpg Unsplash Photo by: Jonathan Borba
+- bump-to-baby-carousel-image1.jpg Unsplash Photo by: Kelly Sikkema
+- bump-to-baby-carousel-image2.jpg Unsplash Photo by: Camylla Battani
+- bump-to-baby-carousel-image3.jpg Unsplash Photo by: Andrea Bertozzini
+- bump-to-baby-carousel-image4.jpg Unsplash Photo by: Gigin Krishnan
+- bump-to-baby-carousel-image5.jpg Unsplash Photo by: Ciprian Sam
+- bump-to-baby-carousel-image6.jpg Unsplash Photo by: Luma Pimentel
+- bump-to-baby-carousel-image7.jpg Unsplash Photo by: Isaac Quesada
+- bump-to-baby-carousel-image8.jpg Unsplash Photo by: Jonathan Borba
+- bump-to-baby-carousel-image9.jpg Unsplash Photo by: Jonathan Borba
+- bump-to-baby-carousel-image10.jpg Unsplash Photo by: Travis Grossen
+- bump-to-baby-aboutme.jpg Unsplash Photo by: Marco Xu
+- bump-to-baby-services-image1.jpg Unsplash Photo by: Freddy G
+- bump-to-baby-services-image2.jpg Unsplash Photo by: Rodolfo Allen
+- bump-to-baby-services-image3.jpg Unsplash Photo by: Lonela Mat
+- bump-to-baby-services-image4.jpg Unsplash Photo by: Zach Lucero
+- bump-to-baby-testiomals-image1.jpg Unsplash Photo by: Max Böhme
+- bump-to-baby-testiomals-image2.jpg Unsplash Photo by: Gigin Krishnan
+- bump-to-baby-testiomals-image3.jpg Unsplash Photo by: Shadab Khan
+- bump-to-baby-testiomals-image4.jpg Unsplash Photo by: Nilanka Kariyawasam
+- bump-to-baby-testiomals-image5.jpg Unsplash Photo by: Gigin Krishnan
+- bump-to-baby-testiomals-image6.jpg Unsplash Photo by: Jonathan Borba
+- bump-to-baby-photography-video.mp4 Pexels Video by: Ivette Garziia
+- bump-to-baby-photography-video.webm Pexels Video by: Ivette Garziia                
 
 ### Code
 - Bootstrap V5.3
