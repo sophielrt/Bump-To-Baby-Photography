@@ -146,6 +146,45 @@ h2.display-6 {
     padding-top: 3rem;
 }
 
+/* Behind the scenes */
+.modalbutton {
+    color: var(--highlight-color);
+    font-size: 4rem;
+    margin-right: 8px;
+    border: none;
+    background-color: transparent;
+}
+
+.modalbutton:hover {
+    color: var(--secondary-color);
+}
+
+.modal-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.modal-title {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.custom-close-btn {
+    color: var(--highlight-color);
+    font-size: 2rem;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+.custom-close-btn:hover {
+    color: var(--secondary-color);
+}
+
 /* Testimonials */
 #testimonials p.card-text {
     font-family: var(--secondary-font);
